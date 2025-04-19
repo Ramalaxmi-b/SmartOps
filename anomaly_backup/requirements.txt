@@ -1,0 +1,6 @@
+tensorflow==2.12.0
+pymongo==4.3.3
+pandas==2.0.3
+scikit-learn==1.2.2
+numpy==1.23.5  # <--- Downgraded to compatible version
+python-dotenv==1.0.0
