@@ -49,9 +49,25 @@ SmartOps is an AI-driven platform that autonomously monitors, predicts, and opti
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes)  
 
 ---
+## Architecture Overview
+
+*Figure 1: SmartOps Data Flow*
+![Data Flow Diagram](assets/dataflow.png)  
+
+
+## System Design
+```mermaid
+graph TD
+    A[Client] --> B[API Gateway]
+    B --> C[Anomaly Detection]
+    C --> D[Database]
+```
+*Figure 2: Architecture Diagram*
+
+![Architecture Diagram](assets/arch.png)  
+
 
 ## Getting Started 🚀  
-
 ### Prerequisites  
 - Node.js v18+  
 - MongoDB Atlas account or local instance  
