@@ -63,6 +63,25 @@ graph TD
 
 ![Architecture Diagram](assets/arch.png)  
 
+## Dashboard Preview
+
+### Normal Operation Dashboard
+![Dashboard](assets/dashboard.png)  
+*Figure 1: SmartOps Monitoring Dashboard - Normal Operating Conditions*
+
+Key Features Visible:
+- Real-time system health metrics
+- Anomaly detection alerts
+- Resource utilization trends
+- Automated remediation status
+
+### Dashboard Components
+| Component | Description |
+|-----------|-------------|
+| **Live Metrics** | CPU/Memory/Network real-time monitoring |
+| **Anomaly Alerts** | AI-detected irregularities with severity levels |
+| **Trend Analysis** | 24-hour performance patterns |
+| **Auto-Remediation** | System self-healing activity log |
 
 ## Getting Started 🚀  
 ### Prerequisites  
