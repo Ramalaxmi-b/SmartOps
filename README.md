@@ -65,9 +65,9 @@ graph TD
 
 ## Dashboard Preview
 
-### Normal Operation Dashboard
+###Dashboard
 ![Dashboard](assets/dashboard.png)  
-*Figure 1: SmartOps Monitoring Dashboard - Normal Operating Conditions*
+*Figure 1: SmartOps Monitoring Dashboard*
 
 Key Features Visible:
 - Real-time system health metrics
