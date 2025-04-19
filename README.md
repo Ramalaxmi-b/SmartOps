@@ -8,9 +8,6 @@ SmartOps is an AI-driven platform that autonomously monitors, predicts, and opti
 [![MERN Stack](https://img.shields.io/badge/stack-MERN-61DAFB?logo=react&logoColor=white)](https://mernstack.com/)
 [![CI/CD](https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF?logo=github-actions)](https://github.com/features/actions)
 
-![SmartOps Architecture](https://via.placeholder.com/800x400.png?text=SmartOps+System+Architecture)  
-*Replace with architecture diagram from SRS Section 4.1*
-
 ---
 
 ## Features ✨  
@@ -49,9 +46,25 @@ SmartOps is an AI-driven platform that autonomously monitors, predicts, and opti
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes)  
 
 ---
+## Architecture Overview
+
+*Figure 1: SmartOps Data Flow*
+![Data Flow Diagram](assets/dataflow.png)  
+
+
+## System Design
+```mermaid
+graph TD
+    A[Client] --> B[API Gateway]
+    B --> C[Anomaly Detection]
+    C --> D[Database]
+```
+*Figure 2: Architecture Diagram*
+
+![Architecture Diagram](assets/arch.png)  
+
 
 ## Getting Started 🚀  
-
 ### Prerequisites  
 - Node.js v18+  
 - MongoDB Atlas account or local instance  
