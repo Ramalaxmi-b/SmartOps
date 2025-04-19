@@ -8,9 +8,6 @@ SmartOps is an AI-driven platform that autonomously monitors, predicts, and opti
 [![MERN Stack](https://img.shields.io/badge/stack-MERN-61DAFB?logo=react&logoColor=white)](https://mernstack.com/)
 [![CI/CD](https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF?logo=github-actions)](https://github.com/features/actions)
 
-![SmartOps Architecture](https://via.placeholder.com/800x400.png?text=SmartOps+System+Architecture)  
-*Replace with architecture diagram from SRS Section 4.1*
-
 ---
 
 ## Features ✨  
